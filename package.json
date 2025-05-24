@@ -7,10 +7,12 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "start": "serve -s build"
   },
   "dependencies": {
     "nuxt": "^3.17.4",
+    "serve": "^14.2.4",
     "socket.io-client": "^4.8.1",
     "vue": "^3.5.14",
     "vue-router": "^4.5.1"
