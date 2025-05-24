@@ -19,7 +19,7 @@ export default {
   },
   mounted() {
     // Verbinde mit dem Arduino-WebSocket (ersetze IP!)
-    this.socket = new WebSocket('ws://192.168.103.194:81');
+    this.socket = new WebSocket('wss://192.168.103.194:81');
 
     this.socket.onopen = () => {
       this.isConnected = true;
